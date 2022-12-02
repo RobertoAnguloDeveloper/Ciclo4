@@ -1,5 +1,7 @@
 var controller = {
     create: function(request, response) {
+        var params = request.body;
+        console.log(params.test);
         return response.status(200).send({
             message: "CREATE controller/usuarios"
         });
