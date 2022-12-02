@@ -1,8 +1,6 @@
 const { response } = require('express');
 const express = require('express');
 
-
-
 const app = express();
 
 const puerto = 4000;
